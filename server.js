@@ -13,7 +13,7 @@ app.use(express.static('public'));
 const upload = multer({ dest: 'uploads/' });
 
 // ✅ Connect to MongoDB
-mongoose.connect("mongodb+srv://bhanu_0523:BHAnu%400523%23@cluster0.iajt0w8.mongodb.net/studentDB?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect(" ", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
@@ -73,4 +73,5 @@ app.post('/submit', upload.single('photo'), async (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
+
 
