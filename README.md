@@ -1,15 +1,22 @@
-# STUDENT-REGISTRATION-FORM
-A simple full-stack web application for student registration.
-It includes a frontend form with validation and a Node.js + Express backend to handle submissions and file uploads.
+# 🎓 Student Registration Form
 
-Features:
-Modern and responsive registration form (HTML + CSS).
-Client-side validation using JavaScript.
-Backend with Express.js to handle form data.
-File upload support (using multer).
-Displays a personalized thank-you message after submission.
+A full-stack **Student Registration Form** built with **Node.js**, **Express.js**, and **Multer**.  
+This project allows students to register by filling out a form, uploading a profile photo, and submitting their details.  
+It demonstrates form handling, file uploads, and server-side processing.
 
-Tech Stack
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Middleware: Multer (for file uploads)
+---
+
+## ✨ Features
+- 📄 **Registration Form** with fields: Name, Email, DOB, Gender, Phone, Course, Skills, Address, Terms Agreement
+- 📤 **File Upload** support (e.g., student photo) using **Multer**
+- 🌐 **Static file serving** (HTML, CSS, JS from `/public`)
+- 🖥 **Express.js backend** to handle form submissions
+- 📜 Logs student data to the console for verification
+
+---
+
+## 🛠 Tech Stack
+- **Backend:** Node.js, Express.js
+- **File Uploads:** Multer
+- **Frontend:** HTML5, CSS3, JavaScript (inside `/public`)
+- **Package Manager:** npm
